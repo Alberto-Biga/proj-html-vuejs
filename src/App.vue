@@ -1,20 +1,25 @@
 <template>
   <div>
-
+    <HeaderComp/>
   </div>
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
+  import HeaderComp from './components/HeaderComp.vue'
 
   export default {
     name: 'App',
     components: {
-      HelloWorld
+      HeaderComp
     }
   }
 </script>
 
 <style lang="scss">
-
+  //reset
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 </style>
