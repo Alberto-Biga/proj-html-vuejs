@@ -1,16 +1,19 @@
 <template>
   <div>
     <HeaderComp/>
+    <CaroselloComp/>
   </div>
 </template>
 
 <script>
   import HeaderComp from './components/HeaderComp.vue'
+  import CaroselloComp from './components/CaroselloComp.vue'
 
   export default {
     name: 'App',
     components: {
-      HeaderComp
+      HeaderComp,
+      CaroselloComp
     }
   }
 </script>
