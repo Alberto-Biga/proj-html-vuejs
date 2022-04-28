@@ -2,18 +2,21 @@
   <div>
     <HeaderComp/>
     <CaroselloComp/>
+    <ImmaginiComp/>
   </div>
 </template>
 
 <script>
   import HeaderComp from './components/HeaderComp.vue'
   import CaroselloComp from './components/CaroselloComp.vue'
+  import ImmaginiComp from './components/ImmaginiComp.vue'
 
   export default {
     name: 'App',
     components: {
       HeaderComp,
-      CaroselloComp
+      CaroselloComp,
+      ImmaginiComp,
     }
   }
 </script>

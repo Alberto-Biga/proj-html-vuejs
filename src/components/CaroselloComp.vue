@@ -45,7 +45,7 @@
         height: 50vh;     
     }
     .testo{
-        width: 30%;                
+        width: 30%;                     
         
         .titolo{
             font-size: 80px;                       
@@ -57,6 +57,7 @@
         }
         .descrizione{
             margin: 60px 0;
+            color: grey;
         }
                
     }
