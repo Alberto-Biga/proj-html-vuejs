@@ -3,6 +3,7 @@
     <HeaderComp/>
     <CaroselloComp/>
     <ImmaginiComp/>
+    <WorkingProcessComp/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
   import HeaderComp from './components/HeaderComp.vue'
   import CaroselloComp from './components/CaroselloComp.vue'
   import ImmaginiComp from './components/ImmaginiComp.vue'
+  import WorkingProcessComp from './components/WorkingProcessComp.vue'
 
   export default {
     name: 'App',
@@ -17,6 +19,7 @@
       HeaderComp,
       CaroselloComp,
       ImmaginiComp,
+      WorkingProcessComp,
     }
   }
 </script>

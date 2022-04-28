@@ -35,7 +35,7 @@
 
 <style scoped lang="scss">
     .container{
-        display: flex;  
+        display: flex;          
 
         .containerImmagine{
             width: calc(100% / 3);                                  
