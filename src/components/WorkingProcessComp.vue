@@ -77,8 +77,7 @@
 
         .workingProcess{
             background-image: url('../assets/img/svg-3.svg');
-            background-repeat: no-repeat;
-            // background-size: contain 100px ; 
+            background-repeat: no-repeat;             
             background-size: 900px;
             background-position: 150px 40px;           
             width: 70%;
@@ -90,8 +89,7 @@
             .column{
                 width: calc( (100% / 4) - 56px );
                 margin: 0 7px;
-                text-align: center;
-                border: 1px solid red;
+                text-align: center;                
 
                 .img{
                     margin-bottom: 20px;

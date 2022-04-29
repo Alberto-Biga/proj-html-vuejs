@@ -4,6 +4,7 @@
     <CaroselloComp/>
     <ImmaginiComp/>
     <WorkingProcessComp/>
+    <PartnershipComp/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@
   import CaroselloComp from './components/CaroselloComp.vue'
   import ImmaginiComp from './components/ImmaginiComp.vue'
   import WorkingProcessComp from './components/WorkingProcessComp.vue'
+  import PartnershipComp from './components/PartnershipComp.vue'
 
   export default {
     name: 'App',
@@ -20,6 +22,7 @@
       CaroselloComp,
       ImmaginiComp,
       WorkingProcessComp,
+      PartnershipComp
     }
   }
 </script>
