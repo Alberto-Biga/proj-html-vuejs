@@ -55,7 +55,7 @@
 <style scoped lang="scss">
     .container{
         width: 80%;
-        margin: 80px auto;
+        margin: 200px auto 100px auto;
         display: flex;        
         
         .column{

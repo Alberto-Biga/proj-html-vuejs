@@ -6,6 +6,7 @@
     <WorkingProcessComp/>
     <PartnershipComp/>
     <ArticlesComp/>
+    <FooterComp/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@
   import WorkingProcessComp from './components/WorkingProcessComp.vue'
   import PartnershipComp from './components/PartnershipComp.vue'
   import ArticlesComp from './components/ArticlesComp.vue'
+  import FooterComp from './components/FooterComp.vue'
 
   export default {
     name: 'App',
@@ -25,7 +27,8 @@
       ImmaginiComp,
       WorkingProcessComp,
       PartnershipComp,
-      ArticlesComp
+      ArticlesComp,
+      FooterComp
     }
   }
 </script>
