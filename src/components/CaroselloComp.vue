@@ -1,32 +1,37 @@
 <template>
-  <div class="container">
-    <!-- TESTO del carosello -->
-    <div class="testo">
-        <!-- TITOLO -->
-        <p class="titolo">
-            Devotion that never <span>ends</span>
-        </p>
-        <!-- DESCRIZIONE -->
-        <p class="descrizione">
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consecutor, adipisci velit, seq quia numquam eius modi.
-        </p>
-        <!-- BOTTONE -->
-        <button>
-            READ MORE
-        </button>    
-    </div>
-    <!-- IMMAGINI carosello -->
-    <div class="img">
-        <div class="img1">
-            <!-- <img src="../assets/img/h-2-slider-img-15.png" alt="">     -->
+    <div class="a">
+        <div class=" freccia frecciaSx">
+            F
         </div>
-        <div class="img2">
-            <!-- <img src="../assets/img/h-2-slider-img-16.png" alt="">     -->
-        </div>
-        
+        <div class="container">
             
-    </div>   
-  </div>
+            <!-- TESTO del carosello -->
+            <div class="testo">
+                <!-- TITOLO -->
+                <p class="titolo">
+                    Devotion that never <span>ends</span>
+                </p>
+                <!-- DESCRIZIONE -->
+                <p class="descrizione">
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consecutor, adipisci velit, seq quia numquam eius modi.
+                </p>
+                <!-- BOTTONE -->
+                <button>
+                    READ MORE
+                </button>    
+            </div>
+            <!-- IMMAGINI carosello -->
+            <div class="img">
+                <div class="img1"></div>
+                <div class="img2"></div>
+            </div>   
+            
+        </div>  
+        <div class="freccia frecciaDx">
+            F
+        </div>  
+    </div>
+    
 </template>
 
 <script>
@@ -38,6 +43,10 @@
 </script>
 
 <style scoped lang="scss">
+
+    .a{
+        display: flex;
+    }
     .container{
         display: flex;        
         width: 80%;
@@ -84,7 +93,7 @@
             margin-left:-110px ;
         }
     }
-
-
-
+    .freccia{
+        margin: auto 60px;
+    }
 </style>

@@ -2,7 +2,7 @@
   <header>
     <!-- SX [logo] -->
     <div>      
-      <img :key="index" v-for="(element,index) in img" :src="{element}" alt="Immagine del logo"/>
+      <img :key="index" v-for="(element,index) in img" :src="element" alt="Immagine del logo"/>
     </div>
     <!-- DX [nav menu] -->
     <div>

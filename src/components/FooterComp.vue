@@ -3,37 +3,12 @@
         <div class="row">
             <div :key="index" v-for="(element, index) in colonna" class="column">
                 <div>
-                    {{element.testoSopra}}
-                    <!-- <img src="../assets/img/logo-sidearea-1.png" alt=""> -->
+                    {{element.testoSopra}}                    
                 </div>
                 <div class="testoSotto">
                     {{element.testoSotto}}
                 </div>
             </div>
-<!-- <div class="column">
-<div>
-maree.qode@gmail.com
-</div>
-<div>
-+44645321789
-</div>
-</div>
-<div class="column">
-<div>
-Avenue d'Auderghem 10
-</div>
-<div>
-1040 Brussels, Belgium
-</div>
-</div>
-<div class="column">
-<div>
-Stay in touch with us
-</div>
-<div>
-""INSERIRE ICONE SOCIAL""
-</div>
-</div> -->
         </div>
     </div>
 </template>
@@ -47,7 +22,7 @@ Stay in touch with us
         return{
             colonna:[
             {
-                testoSopra: 'logo Maree con immagine',
+                testoSopra: 'Maree',
                 testoSotto: 'Let`s get creative'
             },    
             {
@@ -70,8 +45,7 @@ Stay in touch with us
 
 <style scoped lang="scss">
   .container{
-    background-color: #c0e1cf;
-    // height: 25vh;
+    background-color: #c0e1cf;    
     padding: 50px;
 
     .row{
