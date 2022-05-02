@@ -2,15 +2,16 @@
   <header>
     <!-- SX [logo] -->
     <div>      
-      <img src="../assets/img/logo-sidearea-1.png" alt="">
+      <img :key="index" v-for="(element,index) in img" :src="{element}" alt="Immagine del logo"/>
     </div>
     <!-- DX [nav menu] -->
     <div>
       <ul>
-        <li>
-          <a href="">HOME</a>
+        <li :key="index" v-for="(element,index) in vociUl">
+          <a href="">{{element}}</a>
         </li>
-        <li>
+        
+        <!-- <li>
           <a href="">PAGES</a>
         </li>
         <li>
@@ -29,7 +30,7 @@
           <a href="">
             <img src="../assets/img/svg-1.svg" alt="">
           </a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </header>
@@ -40,6 +41,14 @@
     name: 'HeaderComp',
     props: {
       msg: String
+    },
+    data(){
+      return{
+        vociUl:[
+          'HOME','PAGES','PORTFOLIO','BLOG','SHOP','ELEMENTS'
+        ],
+        img:['../assets/img/logo-sidearea-1-1.png'],        
+      }
     }
   }
 </script>
