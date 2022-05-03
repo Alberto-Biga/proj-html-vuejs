@@ -1,7 +1,7 @@
 <template>
     <div class="a">
         <div class=" freccia frecciaSx">
-            F
+            <img src="https://us.123rf.com/450wm/imagecatalogue/imagecatalogue1603/imagecatalogue160300549/53967132-icona-della-freccia-sinistra-lo-stile-%C3%A8-simbolo-icona-piatta-colore-nero-sfondo-bianco-.jpg?ver=6" alt="">
         </div>
         <div class="container">
             
@@ -28,7 +28,7 @@
             
         </div>  
         <div class="freccia frecciaDx">
-            F
+            <img src="https://us.123rf.com/450wm/imagecatalogue/imagecatalogue1603/imagecatalogue160300566/53967214-icona-freccia-destra-vettoriale-lo-stile-%C3%A8-simbolo-icona-piatta-colore-nero-sfondo-bianco-.jpg?ver=6" alt="">
         </div>  
     </div>
     
@@ -93,7 +93,19 @@
             margin-left:-110px ;
         }
     }
+
+    button{
+        background-color: white;
+        border: 2px solid #f2d0c7;
+        padding: 15px 30px;
+        font-weight: bolder;
+    }
     .freccia{
         margin: auto 60px;
+        width: 6vh;
+        
+        img{
+            width: 100%;
+        }
     }
 </style>

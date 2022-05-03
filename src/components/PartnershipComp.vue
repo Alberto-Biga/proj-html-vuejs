@@ -18,8 +18,7 @@
   }
 </script>
 <style scoped lang="scss">
-    .container{
-        // width: 80%;
+    .container{        
         height: 42vh;
         background-image: url('../assets/img/h-2-blog-img-1.jpg');
         background-size: cover;
@@ -39,6 +38,13 @@
         .testo{
             width: 70%;
             margin: 40px auto;
+        }
+
+        button{
+            background-color: #d8f0e3;
+            border: none;
+            padding: 15px 30px;
+            font-weight: bolder;
         }
     }
 </style>
